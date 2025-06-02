@@ -3,7 +3,6 @@
 source ./common.sh
 app_name=redis
 check_root
-app_setup
 
 
 #disable default version
