@@ -12,7 +12,7 @@ failure() {
 }
 
 #ERR is a singnal which will be trigged on error
-trap 'failure "${LINENO}" "${COMMAND_BASH}"' ERR
+trap 'failure "${LINENO}" "${BASH_COMMAND}"' ERR
 
 #till here, everything is normal process
 #now the actual process which is related to mongodb will be created
